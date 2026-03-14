@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFÉ DINÁMICO</title>
+
+    <link rel="stylesheet" href="/miEstilo.css">
+    
+    
+
+    
+</head>
+<body>
+
+<table id="tabla1" border="0" class="tab">
+    <tbody>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <img src="https://media.istockphoto.com/id/589975014/vector/coffee-icon-white.jpg?s=612x612&w=0&k=20&c=o7ZqJ74rdV_TDc0mE094DCUfYMiyf77CRRqVYe_oVhE=" class="avatar">
+            </td>
+        </tr>
+        
+        <tr><td>Nombre</td><td><input type="text" id="nom"></td></tr>
+        <tr><td>Cantidad</td><td><input type="number" id="matri" value="1" ></td></tr>
+        
+        <tr><td><strong>TIPOS DE CAFÉ</strong></td></tr>
+        <tr><td>Grande $30</td><td><input name="tm" type="radio" data-precio="30" value="1" checked></td></tr>
+        <tr><td>Chico $25</td><td><input name="tm" type="radio" data-precio="25" value="2"></td></tr>
+        <tr><td>Extra Grande $50</td><td><input name="tm" type="radio" data-precio="50" value="3"></td></tr>
+
+        <tr><td><strong>COMPLEMENTOS</strong></td></tr>
+        <tr><td>Canela $5</td><td><input type="checkbox" class="extra" data-precio="5" value="2"></td></tr>
+        <tr><td>Chocolate $15</td><td><input type="checkbox" class="extra" data-precio="15" value="4"></td></tr>
+        <tr><td>Vainilla $10</td><td><input type="checkbox" class="extra" data-precio="10" value="5"></td></tr>
+        <tr>
+                    <td colspan="2">
+                        
+                        <button id="botonALGO" onclick="total()"> TOTAL </button>
+                    </td>
+        </tr>
+        <tr> <td colspan="2"> <button id="botonDos" > btDOS </button>
+        </td></tr>
+
+
+
+
+
+    </tbody>
+</table>
+
+
+<script src="/miScript.js"> </script>
+</body>
+
+</html>
