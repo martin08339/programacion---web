@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="/miEstilo.css">
 </head>
 <body>
-    
+    <center>
+        <table id="tabla1" border="0" class="tab">
+            <tbody>
+               
+                <tr><td>Número 1:</td><td><input type="number" id="number1" placeholder="0"></td></tr>
+                <tr><td>Número 2:</td><td><input type="number" id="number2" placeholder="0"></td></tr>
+                
+                <tr><td><h1>( + )</h1></td><td ><input name="tm" type="radio" value="suma" checked></td></tr>
+                <tr><td><h1>( - )</h1></td><td><input name="tm" type="radio" value="resta"></td></tr>
+                <tr><td><h1>( * )</h1></td><td><input name="tm" type="radio" value="multi"></td></tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <button onclick="calcular()">Calcular Resultado</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <script src="/miScript.js"> </script>
 </body>
 </html>
