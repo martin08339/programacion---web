@@ -1,4 +1,4 @@
-function total() {
+function total()  {
    
     let cantidad = parseInt(document.getElementById("matri").value) || 0;
     let nombre = document.getElementById("nom").value;
