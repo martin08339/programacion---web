@@ -1,0 +1,57 @@
+  .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #19191a;
+        }
+       body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center;     /* Centra verticalmente */
+            background-color: #121214; /* Fondo oscuro como tu imagen */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }           
+      /* Estilos para agrandar el cuadro de la calculadora */
+    .tab {
+        border: 2px solid black;
+        border-radius: 8px; /* Bordes redondeados como en el diseño */
+        padding: 30px; /* Aumenta el espacio interno para un cuadro más grande */
+        width: 400px; /* Define un ancho específico más grande */
+        margin:  auto; /* Centra el cuadro horizontalmente */
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Añade una sombra suave */
+        background-color: rgb(62, 62, 62);
+    }
+    
+    /* Estilos para los campos de entrada */
+    input[type="number"] {
+        width: 100%; /* Ocupa todo el ancho disponible en la celda */
+        padding: 10px; /* Espacio interno para que sean más grandes */
+        font-size: 16px; /* Letra más grande */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+        margin-bottom: 15px; /* Espacio inferior */
+    }
+
+    /* Estilos para el botón */
+    button {
+        padding: 12px 20px; /* Botón más grande */
+        font-size: 16px; /* Letra del botón más grande */
+        background-color: #4CAF50; /* Color de fondo opcional */
+        color: white; /* Color de letra opcional */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%; /* Botón del mismo ancho que el cuadro */
+    }
+    
+    /* Estilos opcionales para los textos de las etiquetas */
+    td {
+        font-size: 16px; /* Letra de las etiquetas más grande */
+        padding-bottom: 10px;
+    }
